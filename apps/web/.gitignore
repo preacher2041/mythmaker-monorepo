@@ -1,0 +1,78 @@
+# Node.js
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.vspscc
+*.csproj
+*.fsproj
+*.vbproj
+*.user
+*.bak
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+.DS_Store
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Yarn
+.yarn/
+.pnp.*
+
+# Testing
+/coverage
+
+# VS Code specific (might be redundant with .vscode/ but good for clarity)
+.vscode/*.log
+.vscode/.ropeproject
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Vite specific
+.vite/
+
+# Bundler specific (if not already covered by dist/ or build/)
+# For example, if you explicitly configure an output directory named 'out'
+# out/
+
+# Dependency Lock Files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Local development server files (if any are created)
+.dev.json
+
+# If you use a documentation generator like JSDoc that creates files
+# docs/
+
+# Miscellaneous
+*.log
+*.tmp
+*.bak

@@ -1,0 +1,28 @@
+{
+  "name": "@mythmaker/eslint-config",
+  "version": "1.0.0",
+  "description": "A shared ESLint configuration for Mythmaker projects",
+  "author": {
+    "name": "Lee Hitchcock",
+    "email": "lee.hitchcock2041@gmail.com"
+  },
+  "license": "ISC",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.30.1",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.39.0"
+  }
+}

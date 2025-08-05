@@ -1,0 +1,34 @@
+{
+  "name": "@mythmaker/ui",
+  "version": "1.0.0",
+  "description": "A UI library for Mythmaker applications",
+  "author": {
+    "name": "Lee Hitchcock",
+    "email": "lee.hitchcock2041@gmail.com"
+  },
+  "license": "ISC",
+  "main": "./src/index.ts",
+  "export": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.ts\""
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@mythmaker/eslint-config": "workspace:*",
+    "@mythmaker/prettier-config": "workspace:*",
+    "@mythmaker/tailwind-config": "workspace:*",
+    "@mythmaker/typescript-config": "workspace:*",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "eslint": "^8.13.0",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^4.1.5",
+    "typescript": "^4.6.3",
+    "vite": "^6.1.6"
+  }
+}
