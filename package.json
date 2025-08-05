@@ -9,9 +9,10 @@
   "license": "ISC",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "precommit": "pnpm --filter web format && pnpm --filter web lint pnpm --filter web check"
+    "prepare": "husky"
   },
   "devDependencies": {
+    "husky": "^9.1.7",
     "typescript": "^5.8.3"
   }
 }
