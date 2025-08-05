@@ -1,0 +1,28 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "description": "A design system for the Mythmaker project",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.1.0",
+    "@mythmaker/eslint-config": "workspace:*",
+    "@mythmaker/prettier-config": "workspace:*",
+    "@mythmaker/tailwind-config": "workspace:*",
+    "@mythmaker/typescript-config": "workspace:*",
+    "@mythmaker/ui": "workspace:*",
+    "@storybook/addon-a11y": "^9.1.1",
+    "@storybook/addon-docs": "^9.1.1",
+    "@storybook/addon-vitest": "^9.1.1",
+    "@storybook/react-vite": "^9.1.1",
+    "storybook": "^9.1.1",
+    "vitest": "^3.2.4",
+    "@vitest/browser": "^3.2.4",
+    "playwright": "^1.54.2",
+    "@vitest/coverage-v8": "^3.2.4"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}
