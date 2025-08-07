@@ -1,0 +1,14 @@
+{
+    "name": "@mythmaker/vitest-config",
+    "version": "1.0.0",
+    "description": "Vitest configuration for Mythmaker projects",
+    "type": "module",
+    "exports": {
+        "./base": "./configs/base-config.ts"
+    },
+    "devDependencies": {
+        "@mythmaker/typescript-config": "workspace:*",
+        "@vitest/ui": "3.2.4",
+        "vitest": "^3.2.4"
+    }
+}
