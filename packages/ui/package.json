@@ -15,16 +15,16 @@
     "lint": "eslint \"**/*.ts\""
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@mythmaker/eslint-config": "workspace:*",
     "@mythmaker/prettier-config": "workspace:*",
     "@mythmaker/tailwind-config": "workspace:*",
     "@mythmaker/typescript-config": "workspace:*",
-    "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.2",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
     "eslint": "^9.32.0",
     "prettier": "^3.5.3",
     "tailwindcss": "^4.1.5",
