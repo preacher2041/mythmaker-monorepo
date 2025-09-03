@@ -4,13 +4,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "test": "vitest run",
-    "test-ui": "vitest --ui",
-    "build": "tsc && vite build",
     "preview": "vite preview",
+    "build": "tsc && vite build",
     "format": "prettier --write src --ignore-path .prettierignore",
     "lint": "eslint --fix --ext .js,.ts,.tsx ./src --ignore-pattern .gitignore",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "test-ui": "vitest --ui"
   },
   "dependencies": {
     "@mythmaker/ui": "workspace:*",
